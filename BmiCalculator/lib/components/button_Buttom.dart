@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 
 class ButtomButton extends StatelessWidget {
   
-  ButtomButton({@required this.onTab, @required this.bottomTitle});
+  ButtomButton({required this.onTab, required this.bottomTitle});
 
-  final Function onTab;
+  var onTab;
   final String bottomTitle;
   
   @override

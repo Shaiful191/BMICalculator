@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
 
   
  
-  Gender selectedGender;
+  Gender ?selectedGender;
   int height=180;
   int weight = 60;
   int age = 20;
@@ -164,7 +164,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                   ],
-              ),
+              ), onPress: null,
             ),
           ),
           Row(
@@ -208,7 +208,7 @@ class _HomePageState extends State<HomePage> {
                           ],
                         ),
                       ],
-                ),
+                ), onPress: null,
                 ),
               ),
               Expanded(
@@ -249,7 +249,7 @@ class _HomePageState extends State<HomePage> {
                           ],
                         ),
                       ],
-                ),
+                ), onPress: null,
                 ),
               ),
             ],

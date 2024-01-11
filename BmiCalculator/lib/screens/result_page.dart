@@ -6,7 +6,7 @@ import 'package:bmicalculator/constands.dart';
 import 'package:flutter/material.dart';
 class ResultPage extends StatelessWidget {
   
-  ResultPage({@required this.inerpretation,@required this.bmiResult,@required this.resultText});
+  ResultPage({required this.inerpretation,required this.bmiResult,required this.resultText});
   final String bmiResult;
   final String resultText;
   final String inerpretation;
@@ -52,7 +52,7 @@ class ResultPage extends StatelessWidget {
                     )
                     
                   ],
-                ),
+                ), onPress: null,
                 ) ,
               ),
               ButtomButton(
